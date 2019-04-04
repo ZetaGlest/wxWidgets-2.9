@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\zlib-1.2.6\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib-1.2.6\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib-1.2.6\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib-1.2.6\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib-1.2.6\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib-1.2.6\gzclose.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib-1.2.6\gzlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib-1.2.6\gzread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib-1.2.6\gzwrite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib-1.2.6\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib-1.2.6\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib-1.2.6\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib-1.2.6\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib-1.2.6\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\zlib-1.2.6\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\zlib-1.2.6\zlib.h" />
+    <ClInclude Include="..\..\..\zlib-1.2.6\zutil.h" />
+    <ClInclude Include="..\..\..\zlib-1.2.6\crc32.h" />
+    <ClInclude Include="..\..\..\zlib-1.2.6\deflate.h" />
+    <ClInclude Include="..\..\..\zlib-1.2.6\gzguts.h" />
+    <ClInclude Include="..\..\..\zlib-1.2.6\inffast.h" />
+    <ClInclude Include="..\..\..\zlib-1.2.6\inffixed.h" />
+    <ClInclude Include="..\..\..\zlib-1.2.6\inflate.h" />
+    <ClInclude Include="..\..\..\zlib-1.2.6\inftrees.h" />
+    <ClInclude Include="..\..\..\zlib-1.2.6\trees.h" />
+    <ClInclude Include="..\..\..\zlib-1.2.6\zconf.h" />
+  </ItemGroup>
+</Project>
